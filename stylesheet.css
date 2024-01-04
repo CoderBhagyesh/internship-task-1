@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner-one{
+  padding: 20px 130px 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('images/sai-header-banner.jpg');
+  background-size: cover;
+  background-position: top;
+}
+
+.banner-one-col-1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner-one-col-1>p:nth-of-type(1){
+  color: rgb(241, 198, 22);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.banner-one-col-1>p:nth-of-type(2){
+  color: #fff;
+  font-size: 31px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 0.05px;
+}
+
+.banner-one-col-2{
+  width: 374px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.header-achievement{
+  display: flex;
+  color: #fff;
+  font-size: 18.5px;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  line-height: 27px;
+  margin-bottom: 7px;
+}
+
+.header-achievement img{
+  margin-right: 10px;
+}
+
+.header-highligter-container{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  gap: 30px;
+}
+
+.header-highlighter-item{
+  background-color: #5990a2;
+  border-radius: 15px;
+  padding: 20px 0;
+  width: 150px;
+}
+
+.header-highlighter-item div:first-of-type{
+  font-size: 31px;
+  font-weight: 700;
+}
+
+.header-highlighter-item div:last-of-type{
+  font-size: 14.7px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 10px;
+  letter-spacing: 0.8px;
+}
+
+
+/* about-sai */
+
+.about-sai{
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  display: flex;
+  padding: 10px 120px 10px 90px;
+  justify-content: space-between;
+}
+
+.about-sai-col-1{
+  width: 523px;
+}
+
+.about-sai-col-1 img{
+  width: 100%;
+}
+
+.about-sai-col-2{
+  width: 55%;
+  padding-top: 30px;
+}
+
+.about-sai-col-2>div:nth-of-type(1){
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-sai-col-2>div:nth-of-type(2){
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.about-sai-col-2 hr{
+  margin: 20px 0;
+  border-top: 3.5px dashed #5990a2;
+  background-color: #fff;
+  opacity: 1;
+}
+
+.about-sai-col-2>div:nth-of-type(3){
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.about-sai-col-1-ranked{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.about-sai-col-1-ranked-item img{
+  width: 100%;
+}

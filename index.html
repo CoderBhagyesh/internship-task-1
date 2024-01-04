@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sai Balaji Group</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/sai-logo3.png" alt="Logo" width="310" height="91" class="d-inline-block align-text-top">
+        </a>
+      </div>
+    </nav>
+  </header>
+  <section class="banner-one" id="home">
+    <div class="banner-one-col-1">
+      <p>Empowering Leaders, Transforming Futures</p>
+      <p>SAIBALAJI GROUP OF INSTITUTES <br>( IIMS | SBIIMS | IIMHRD )</p>
+      <div class="header-achievement">
+        <div><img src="images/trophy.png" alt="trophy"></div>
+        <p>6TH TOP PRIVATE MBA INSTITUTIONS, PUNE - <br>OUTLOOK, INDIA'S BEST B SCHOOL SURVEY - 2023</p>
+      </div>
+      <div class="header-achievement">
+        <div><img src="images/trophy.png" alt="trophy"></div>
+        <p>8TH TOP PRIVATE MBA INSTITUTIONS, MAHARASHTRA - <br>OUTLOOK, INDIA'S BEST B SCHOOL SURVEY - 2023</p>
+      </div>
+
+      <div class="header-highligter-container">
+        <div class="header-highlighter-item">
+          <div>28 LPA</div>
+          <div>HIGHEST <br>PLACEMENT</div>
+        </div>
+        <div class="header-highlighter-item">
+          <div>8.5 LPA</div>
+          <div>AVERAGE <br>PLACEMENT</div>
+        </div>
+        <div class="header-highlighter-item">
+          <div>300+</div>
+          <div>TOP <br>RECRUITERS</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="banner-one-col-2">
+      <div class="enquiry_form" id="admission_form" style="z-index:-0">
+
+        <div>
+          <h5 style="text-align: center; font-weight:600; color:#000">Admissions Open 2024 Batch</h5>
+        </div>
+        <div class="content__wrapper">
+          <p class="text-center text-danger"></p>
+          <p class=" text-center text-success"></p>
+          <form action="" method="post" class="bg-white" id="registration">
+            <div class="form-group">
+
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Full Name">
+
+            </div>
+            <div class="form-group">
+
+              <input type="email" class="form-control" id="emailAddr" name="email" placeholder="Enter Your Email Address">
+            </div>
+            <div class="form-group">
+
+              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Enter Your Mobile Number" maxlength="10">
+            </div>
+            <div class="form-group" id="selection">
+
+              <select class="form-control form-input form-field favouriteFive" id="listBox" name="state" value="" onchange="selct_district(this.value)" required="">
+                <option value="SELECT STATE">SELECT STATE</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                <option value="Daman and Diu">Daman and Diu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Orissa">Orissa</option>
+                <option value="Puducherry">Puducherry</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+
+              <input type="text" class="form-control" id="city" name="city" placeholder="Enter Your City">
+
+            </div>
+
+            <div class="form-group">
+              <select class="form-control" name="course" id="collegeName">
+                <option value="">Select College</option>
+                <option value="SBIIM">SBIIM</option>
+                <option value="IIMS">IIMS</option>
+                <option value="IIMHRD">IIMHRD</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <select class="form-control" name="course" id="coursename">
+                <option value="">Select Course</option>
+                <option value="MBA">MBA</option>
+                <option value="PGDM">PGDM</option>
+              </select>
+            </div>
+            <button type="submit" name="submit" class="btn btn-primary" style="
+      width: 100%;background-color: #2F4E6A; border-color:#2F4E6A;">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <section>
+    <div class="about-sai">
+      <div class="about-sai-col-1">
+        <div><img src="images/welcome-img.jpg" alt="welcome-img"></div>
+      </div>
+      <div class="about-sai-col-2">
+        <div>WELCOME TO</div>
+        <div>SAIBALAJI GROUP OF INSTITUTES</div>
+        <hr>
+        <div>
+          <p>SAIBALAJI GROUP OF INSTITUTES, Pune, fosters academic
+            brilliance and holistic development. A hub of innovation
+            and learning, we empower students with quality
+            education, cutting-edge facilities, and industry-relevant
+            programs, preparing them for a dynamic future.
+          </p>
+        </div>
+        <div class="about-sai-col-1-ranked">
+          <div class="about-sai-col-1-ranked-item">
+            <img src="images/welcome-ranked-1.jpg" alt="welcome-ranked-1">
+          </div>
+          <div class="about-sai-col-1-ranked-item">
+            <img src="images/welcome-ranked-2.jpg" alt="welcome-ranked-2">
+          </div>
+          <div class="about-sai-col-1-ranked-item">
+            <img src="images/welcome-ranked-3.jpg" alt="welcome-ranked-3">
+          </div>
+          <div class="about-sai-col-1-ranked-item">
+            <img src="images/welcome-ranked-4.jpg" alt="welcome-ranked-4">
+          </div>
+          <div class="about-sai-col-1-ranked-item">
+            <img src="images/welcome-ranked-5.jpg" alt="welcome-ranked-5">
+          </div>
+          <div class="about-sai-col-1-ranked-item">
+            <img src="images/welcome-ranked-6.jpg" alt="welcome-ranked-6">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <section>
+    <div class="course-offered">
+      <div class="course-offered-col-1">
+        <div>Courses Offered by <br> SAIBALAJI Group OF INSTITUTES</div>
+        <button data-bs-toggle="modal" data-bs-target="#registerModal">Download Brochure</button>
+      </div>
+      <div class="course-offered-col-2">
+        <div>
+          <img src="images/MBA-sai.jpg" alt="MB-sai">
+          <ul>
+            <li>2Years Program</li>
+            <li>1 International Visit</li>
+            <li>5 Internship Available</li>
+            <li>50% Practical Exposure</li>
+            <li>Corporate Industrial Visits</li>
+          </ul>
+        </div>
+        <div>
+          <img src="images/PGDM-sai.jpg" alt="MB-sai">
+          <ul>
+            <li>2Years Program</li>
+            <li>2 International Visit</li>
+            <li>10 Internship Available</li>
+            <li>80% Practical Exposure</li>
+            <li>Corporate Industrial Visits</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
